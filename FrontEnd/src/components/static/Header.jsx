@@ -9,7 +9,7 @@ function Header(){
                 <h3 className="text-[#25324B] text-2xl font-bold flex gap-2 " > <img src={Logo} alt="Logo"/> JobHuntly</h3>
             
                     <ul className="flex gap-5">
-                        <li className='text-[#515B6F]'>Find a job</li>
+                        <li className='text-[#515B6F]'>Find a Job</li>
                         <li className='text-[#515B6F]' >Browse Companies</li>
                     </ul>
                 </div>
