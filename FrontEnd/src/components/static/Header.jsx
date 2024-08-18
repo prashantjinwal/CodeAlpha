@@ -25,11 +25,11 @@ function Header(){
 
             <section className="flex gap-4">
 
-            <div className="p-[5em] flex flex-col justify-start  ml-4 ">
+            <div className="p-[5em] flex flex-col justify-start  ml-4  gap-2">
 
                 <h3 className="text-7xl font-bold text-[#25324B] font-head">Discover<br/> more than <br/> <span className="text-[#26A4FF]">5000+ Jobs</span> <br/> <img src={line} alt="vector"/></h3>
                 <p className='text-[#515B6F] text-wrap w-2/3 py-2'>Great platform for the job seeker that searching for new career heights and passionate about startups.</p>
-                <div className="p-3 bg-white w-[80%] flex "><Search/></div>
+                <span className="p-3  bg-white  "><Search/></span>
             </div>
 
             <div className="">
