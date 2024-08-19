@@ -14,7 +14,7 @@ export default function Search(){
     return(
 
         <>
-            <form className="inline-flex gap-5 justify-evenly">
+            <form className="inline-flex gap-7 ">
                 <input className="px-3 py-2 border-b-2" type="search"/>
 
                 <select className="px-3 py-2 border-b-2 " value={selected} onChange={handleSelect} >
