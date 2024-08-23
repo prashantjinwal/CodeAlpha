@@ -3,8 +3,9 @@ import Header from "../components/static/Header";
 function HomePage(){
 
         return(
-
+        <>
             <Header/>
+        </>
         )
 
 }
