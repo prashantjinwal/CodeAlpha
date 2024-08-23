@@ -12,7 +12,7 @@ import DragHandleIcon from '@mui/icons-material/DragHandle';
 function Header(){
     return(
         <header className="w-full bg-[#eaeaf7]  h-screen">
-            <nav className="flex justify-between px-4 py-3 bg-slate-400">
+            <nav className="flex justify-between px-4 py-3">
                 <label id="fontRaleway" className="flex gap-2 font-semibold text-2xl text-[#25324B]  items-center"> <img src={Logo} alt='' /> JobHuntly</label>
                 <span className="border-2 bg-white p-1 rounded-full" ><DragHandleIcon fontSize="large"/></span>
             </nav>
