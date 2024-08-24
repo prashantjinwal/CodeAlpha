@@ -1,7 +1,8 @@
 // import Search from "../dynamic/Search"
+import Banner from "../Essential/Banner";
 import Logo from "/assets/Logo/Logo.png"
 // import person from "/header/Ladka.png"
-// import line from "/header/Vector.png"
+
 import DragHandleIcon from '@mui/icons-material/DragHandle';
 
 // #eaeaf7
@@ -27,6 +28,12 @@ function Header(){
                 </div>
                 <span className="border-2 bg-white p-1 rounded-full md:hidden shadow-md" ><DragHandleIcon fontSize="large"/></span>
             </nav>
+
+            <div className="py-[1.5em] px-5">
+
+                <Banner/>
+
+            </div>
             
 
         </header>
