@@ -4,7 +4,7 @@ import Siderbar from "../components/static/SiderBar";
 
 
 function HomePage(){
-        const [sidebar , setSidebar] = useState(false)
+        const [sidebar] = useState(true)
 
         return(
         <>
