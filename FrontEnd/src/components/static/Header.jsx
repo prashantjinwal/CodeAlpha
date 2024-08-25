@@ -40,7 +40,7 @@ function Header({sideBarState}){
 
                 <Banner/>
                <div className="my-8 flex flex-row bg-white px-5 py-5 rounded-md shadow-md"> <Search/> </div>
-
+                <p className=" text-wrap text-[#515B6F] text-sm mt-[1em] "><span className="block py-1">Popular :</span>UI Designer, UX Researcher, Android, Admin</p>
             </div>
             
 
