@@ -22,7 +22,7 @@ function Siderbar({sideBarState}) {
                 </ul>
             </div>
 
-            <div className="py-5 flex flex-col">
+            <div className="py-5 gap-4 flex flex-col">
                 <button className="px-4 py-2 text-[#4640DE] font-semibold">Login</button>
                 <button className="px-4 py-2 bg-[#4640DE] font-semibold text-white">Sign Up</button>
             </div>

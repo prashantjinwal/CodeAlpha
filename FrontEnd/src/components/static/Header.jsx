@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
 // import Search from "../dynamic/Search"
+import Search from "../dynamic/Search";
 import Banner from "../Essential/Banner";
 import Logo from "/assets/Logo/Logo.png"
 // import person from "/header/Ladka.png"
@@ -38,6 +39,7 @@ function Header({sideBarState}){
             <div className="py-[1.5em] px-5">
 
                 <Banner/>
+               <div className="my-7 flex flex-row bg-white px-5 py-5 rounded-md shadow-md"> <Search/> </div>
 
             </div>
             
