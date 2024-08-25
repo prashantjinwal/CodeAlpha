@@ -26,7 +26,7 @@ export default function Search(){
                     
                 </select>
                 
-                <button className="bg-[#4640DE] text-white text-base font-medium rounded-sm  px-3 py-2">Search my job</button>
+                <button className="bg-[#4640DE] text-white text-base font-medium rounded-md  px-3 py-2">Search my job</button>
 
             </form>
         

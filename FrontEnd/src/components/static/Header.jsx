@@ -36,10 +36,10 @@ function Header({sideBarState}){
                 <span onClick={barToggle} className="border-2 bg-white p-1 rounded-full md:hidden shadow-md" ><DragHandleIcon fontSize="large"/></span>
             </nav>
 
-            <div className="py-[1.5em] px-5">
+            <div className="py-[1.8em] px-5">
 
                 <Banner/>
-               <div className="my-7 flex flex-row bg-white px-5 py-5 rounded-md shadow-md"> <Search/> </div>
+               <div className="my-8 flex flex-row bg-white px-5 py-5 rounded-md shadow-md"> <Search/> </div>
 
             </div>
             
