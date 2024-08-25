@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 // import Search from "../dynamic/Search"
 import Banner from "../Essential/Banner";
 import Logo from "/assets/Logo/Logo.png"
@@ -10,7 +11,12 @@ import DragHandleIcon from '@mui/icons-material/DragHandle';
 // #515B6F
 // #4640DE
 
-function Header(){
+
+function Header({sideBarState}){
+
+    const barToggle = () => {
+        sideBarState(true)
+    }
     return(
         <header className="w-full bg-[#eaeaf7]  h-screen absolute">
             <nav className="flex justify-between px-4 py-3 md:py-4 md:px-10">
@@ -26,7 +32,7 @@ function Header(){
                     <button className="px-4 py-2 text-[#4640DE] font-semibold border-r-2 border-[#a2aec7] border-opacity-25 ">Login</button>
                     <button className="px-4 py-2 bg-[#4640DE] font-semibold text-white">Sign in</button>
                 </div>
-                <span className="border-2 bg-white p-1 rounded-full md:hidden shadow-md" ><DragHandleIcon fontSize="large"/></span>
+                <span onClick={barToggle} className="border-2 bg-white p-1 rounded-full md:hidden shadow-md" ><DragHandleIcon fontSize="large"/></span>
             </nav>
 
             <div className="py-[1.5em] px-5">

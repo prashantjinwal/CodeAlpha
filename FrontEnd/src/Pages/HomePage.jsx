@@ -4,13 +4,13 @@ import Siderbar from "../components/static/SiderBar";
 
 
 function HomePage(){
-        const [sidebar] = useState(false)
+        const [sidebar, setSideBar] = useState(false)
 
         return(
         <>
-            <Header/>
+            <Header sideBarState={setSideBar} />
             {sidebar &&
-            <Siderbar/>
+            <Siderbar sideBarState={setSideBar} />
             }
         </>
         )
