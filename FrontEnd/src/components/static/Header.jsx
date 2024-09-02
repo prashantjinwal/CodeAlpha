@@ -3,7 +3,7 @@
 import Search from "../dynamic/Search";
 import Banner from "../Essential/Banner";
 import Logo from "/assets/Logo/Logo.png"
-// import person from "/header/Ladka.png"
+import person from "/header/Ladka.png"
 
 import DragHandleIcon from '@mui/icons-material/DragHandle';
 
@@ -36,11 +36,18 @@ function Header({sideBarState}){
                 <span onClick={barToggle} className="border-2 bg-white p-1 rounded-full md:hidden shadow-md" ><DragHandleIcon fontSize="large"/></span>
             </nav>
 
-            <div className="py-[1.8em] px-5">
+            <div className="py-[1.8em]  px-5  md:px-[2.5em] md:justify-between lg:gap-10 lg:flex ">
 
+                <div className="md:px-[2.5em] md:py-[2.5em] scale-105  ">
                 <Banner/>
-               <div className="my-8 flex flex-row bg-white px-5 py-5 rounded-md shadow-md"> <Search/> </div>
-                <p className=" text-wrap text-[#515B6F] text-md my-4 "><span className="block py-1">Popular :</span>UI Designer, UX Researcher, Android, Admin</p>
+                <div className="my-8 flex flex-row bg-white md:bg-slate-50 px-5 py-5 rounded-md shadow-md "> <Search/> </div>
+                <p className=" text-wrap text-[#515B6F] text-base my-4 "><span className="block py-1">Popular :</span>UI Designer, UX Researcher, Android, Admin</p>
+                </div>
+
+                <div className="hidden lg:block">
+                   <img className="h-[84%]" src={person} alt="person"/>
+                </div>
+
             </div>
             
 

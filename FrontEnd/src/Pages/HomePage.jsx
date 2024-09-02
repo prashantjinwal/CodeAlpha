@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Header from "../components/static/Header";
 import Siderbar from "../components/static/SiderBar";
+import Bands from "../components/static/Bands.Jsx";
+
 
 
 function HomePage(){
@@ -12,6 +14,7 @@ function HomePage(){
             {sidebar &&
             <Siderbar sideBarState={setSideBar} />
             }
+            <Bands/>
         </>
         )
 
